@@ -84,7 +84,7 @@ jobs:
 
       - name: Test code with Trivy vulnerability scanner
         id: trivy
-        uses: aquasecurity/trivy-action@0.30.0
+        uses: aquasecurity/trivy-action@0.31.0
         with:
           scan-type: "fs" # filesystem scanner
           scan-ref: "." # whole repo
