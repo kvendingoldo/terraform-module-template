@@ -59,7 +59,7 @@ jobs:
 
       - name: Auto Commit Changes
         if: steps.create_pr.outputs.pull-request-operation == 'created'
-        uses: stefanzweifel/git-auto-commit-action@v5
+        uses: stefanzweifel/git-auto-commit-action@v6
         with:
           commit_message: "Terraform fmt"
           file_pattern: "*.tf"
