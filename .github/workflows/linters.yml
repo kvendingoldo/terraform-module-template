@@ -126,7 +126,7 @@ jobs:
           fetch-depth: 0
 
       - name: Setup TFLint
-        uses: terraform-linters/setup-tflint@v4
+        uses: terraform-linters/setup-tflint@v5
         with:
           tflint_version: ${{ env.tflint_version }}
 
