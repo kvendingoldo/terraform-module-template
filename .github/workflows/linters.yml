@@ -77,7 +77,7 @@ jobs:
           fetch-depth: 0
 
       - name: Setup Trivy
-        uses: aquasecurity/setup-trivy@v0.2.3
+        uses: aquasecurity/setup-trivy@v0.2.4
         with:
           cache: true
           version: ${{ env.trivy_version }}
